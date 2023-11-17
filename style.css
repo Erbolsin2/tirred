@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.header{
+ background-color: rgba(255, 255, 255, 0.25);
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ height: 50px;
+}
+input{
+ width: 250px;
+ height: 25px;
+ border-radius: 5px;
+ font-size: 17px;
+}
+nav>a{
+ margin: 0px 10px;
+ color: aqua;
+ font-size: 18px;
+ text-decoration:none;
+}
+nav>a:hover{
+	color:darkslategray;
+}
+.logo{
+ height: 100px;
+ margin: 100px 0px 0px 30px;
+ display: block;
+ animation:log 0.5s infinite forwards;
+}
+@keyframes log{
+	0%{
+					transform:translate(0);
+	}
+	15%{
+					transform:translate(0px, 20px);
+	}
+	30%{
+					transform:translate(0);
+	}
+	45%{
+					transform:translate(0px, 20px);
+	}
+	100%{
+					transform:translate(0);
+	}
+}
+.but{
+ color: rgb(223, 97, 97);
+ background-color:rgb(6, 1, 27) ;
+ padding: 6px 17px;
+ border-radius: 1px;
+}
+.but:hover{
+	background-color:rgba(12, 4, 45, 0.981);
+}
+.but1{
+ color: rgb(194, 81, 81);
+ background-color:rgb(34, 32, 27) ;
+ padding: 6px 17px;
+ border-radius: 1px;
+}
+.but1:hover{
+	background-color:rgba(34, 32, 27, 0.917) ;
+}
+.body1{
+ background-image:url(mor.jpg);
+ font-family: 'Ubuntu', sans-serif;
+	background-size: 100% 80%;
+}
+.pak{
+ font-size: 30px;
+ color: rgba(0, 0, 0,0.6);
+}
+.img1{
+ height: 200px;
+ display: inline-block;
+}
+article{
+ justify-content: space-around;
+}
+.under{
+ color: rgba(255, 255, 255, 0.75);
+ font-size: 20px;
+ margin: 200px 0px 0px 50px;
+ width:490px;
+ display:inline-block;
+}
+.girl{
+	position: relative;
+	left: 61vw;
+	top: -15vh;
+}
+.girl>img{
+ margin: 20px;
+}
+div.block>a{
+ background-color: #F88973 ;
+ padding: 7px 25px;
+ font-size: 25px;
+ text-decoration:none;
+ color: rgb(6, 1, 27);
+}
+.block>a:hover{
+	background-color: rgb(6, 1, 27);
+	color:#F88973;
+	transition: all 1s ease-out;
+}
+.block>span>span>img{
+ width: 22px;
+ margin: 6px 7px 0px 20px;
+ animation:star 3s infinite forwards;
+}
+@keyframes star{
+	0%{
+					transform:rotate(0);
+	}
+	100%{
+					transform:rotate(3turn);
+					font-family: unset;
+	}
+}
+
+.block>span>span,.xxx{
+	background-color: rgba(255, 255, 255, 0.25);
+}
+.xxx{
+	display:contents;
+}
+.block>span{
+ display: inline-block;
+ width: 110px;
+ margin: 0px 0px 0px 20px;
+ color: #dfcac5;
+}
+.body2{
+	background-color: black;
+	border-radius: 3px;
+}
+.score{
+	color: #dfcac5;
+}
+.loto{
+	animation:lotos 5s infinite forwards;
+}
+@keyframes lotos{
+	0%{
+			transform:translate(0);
+	}
+	100%{
+		   transform:translate(0,-250px);
+	}
+}
